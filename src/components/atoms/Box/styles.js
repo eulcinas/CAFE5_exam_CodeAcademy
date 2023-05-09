@@ -1,0 +1,18 @@
+import styled from 'styled-components';
+
+export const StyledBox = styled.div`
+  max-width: 62.5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.25rem;
+
+  background-color: var(--teal);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  @media screen and (min-width: 600px) {
+    width: 100%;
+  }
+`;
