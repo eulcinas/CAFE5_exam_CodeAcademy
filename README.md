@@ -11,10 +11,8 @@ This project concurrently launches Vite server (Front-End) and Node.js (express.
 
 - You can clone this repository by using the 'git clone' command in your terminal;
 - After downloading all files, use command 'npm ci' to download node-modules;
+- Put your MongoDB database url in the ./backend folder app.js file;
 - Finally start the application with command 'npm start';
-
-Or use this link to view deployed project on my Vercel server
-[CAFE5_exam]()
 
 ## Features
 

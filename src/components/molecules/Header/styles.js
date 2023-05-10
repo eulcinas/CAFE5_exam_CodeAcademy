@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const StyledHeader = styled.header`
-  height: 8vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,8 +16,6 @@ export const StyledHeader = styled.header`
   }
 
   @media screen and (min-width: 600px) {
-    height: 10vh;
-
     p {
       font-size: 1.5rem;
     }

@@ -7,7 +7,8 @@ import cors from 'cors';
 const app = express();
 dotenv.config();
 const PORT = process.env.PORT || 5000;
-const MONGODB_URL = 'mongodb+srv://eimis_dev_1993:cafe5@cluster0.en3l38j.mongodb.net/cafe5_exam?retryWrites=true&w=majority';
+// Paste you MongoDB database url here:
+const MONGODB_URL = '';
 
 // Connect to MongoDB
 // connectMongoDB();

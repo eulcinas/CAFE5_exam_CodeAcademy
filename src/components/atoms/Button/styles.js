@@ -7,7 +7,7 @@ export const StyledButton = styled.button`
   border-style: none;
   border-color: none;
   border-radius: 5px;
-  padding: 10px;
+  padding: 5px;
   font-size: 16px;
   background-color: var(--dark-blue);
   color: var(--perl);
@@ -17,5 +17,13 @@ export const StyledButton = styled.button`
     border: 1px solid var(--dark-blue);
     color: var(--dark);
     padding: 8px;
+  }
+
+  @media screen and (min-width: 400px) {
+    padding: 8px;
+  }
+
+  @media screen and (min-width: 620px) {
+    padding: 10px;
   }
 `;

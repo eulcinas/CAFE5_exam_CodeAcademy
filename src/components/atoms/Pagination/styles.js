@@ -17,4 +17,10 @@ export const StyledPaginationButton = styled.button`
   background-color: transparent;
   border: 1px solid black;
   border-radius: 10px;
+
+  :hover {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    border-color: var(--white);
+  }
 `;

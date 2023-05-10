@@ -15,6 +15,7 @@ const UserList = ({ users, deleteUser, updateUser, usersPerPage = 10 }) => {
     setUsersData(users)
   }, [users])
 
+  // Handles delete function for the DeleteUserButton
   const handleDelete = async (userId) => {
     try {
       const response = await axios.delete(`http://localhost:5000/api/users/${userId}`)
@@ -27,6 +28,7 @@ const UserList = ({ users, deleteUser, updateUser, usersPerPage = 10 }) => {
     }
   }
 
+  // Handles update function for the EditUser component and UpdateUserButton
   const handleUpdate = (updatedUser) => {
     setUsersData(usersData.map(user => user._id === updatedUser._id ? updatedUser : user));
     setEditingUserId(null);

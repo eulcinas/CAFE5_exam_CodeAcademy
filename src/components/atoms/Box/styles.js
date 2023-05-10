@@ -12,7 +12,7 @@ export const StyledBox = styled.div`
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
-  @media screen and (min-width: 600px) {
-    width: 100%;
+  @media screen and (min-width: 1000px) {
+    padding: 1.25rem 2rem;
   }
 `;

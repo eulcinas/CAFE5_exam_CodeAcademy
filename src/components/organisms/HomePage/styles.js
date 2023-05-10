@@ -9,6 +9,11 @@ export const StyledHomePage = styled.main`
   gap: 30px;
   background-color: var(--eggshell);
   margin: 0 auto;
+
+  @media screen and (min-width: 1000px) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 `;
 
 export const StyledContainer = styled.div`
@@ -18,7 +23,4 @@ export const StyledContainer = styled.div`
   flex-direction: column;
   gap: 20px;
   margin: 0 auto;
-
-  /* @media screen and (min-width: 1000px) {
-  } */
 `;

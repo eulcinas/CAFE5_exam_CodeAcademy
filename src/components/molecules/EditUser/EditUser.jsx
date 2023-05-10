@@ -4,6 +4,8 @@ import Input from '../../atoms/Input/Input';
 import Button from '../../atoms/Button/Button';
 
 const EditUser = ({ user, handleUpdate }) => {
+
+  // Sets the values to show when update button is pressed
   const [formData, setFormData] = useState({
     name: user.name,
     surname: user.surname,
@@ -31,8 +33,6 @@ const EditUser = ({ user, handleUpdate }) => {
       console.error('Error updating user data:', error);
     }
   };
-
-
 
   return (
     <form onSubmit={handleSubmit}>

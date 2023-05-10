@@ -39,12 +39,6 @@ export const StyledInputWrapper = styled.div`
       left: 20px;
     }
   }
-
-  @media screen and (min-width: 1000px) {
-    input {
-      /* width: 210px; */
-    }
-  }
 `;
 
 export const StyledInput = styled.input`
